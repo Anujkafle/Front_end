@@ -1,0 +1,61 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f2f7f5;
+    margin-left: 500px;
+
+    position: fixed;
+}
+.contact{
+    background-color: #b0ded8;
+    border-radius: 10px;
+    width: 100vw;
+    max-width: 500px;
+
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.form-group{
+    margin-left: 10px;
+}
+
+.form-control{
+    border: 0.5px solid;
+    border-radius: 2px;
+    margin-left: 10px;
+    box-sizing:  border-box;
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: transparent;
+
+
+}
+.submit{
+    margin-top: 10px;
+    border: 0px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-sizing:  border-box;
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+iframe{
+    margin-top: 5px;
+    width: 100%;
+    border: 0px solid;
+}
+

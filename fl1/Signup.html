@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Your Account</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <form action="" method="post">
+        <h1>Create your account</h1>
+
+        <div class="form-group">
+          <label for="username">Username: </label>
+          <div style="display: flex">
+            <input
+              type="text"
+              style="position: relative"
+              class="form-control"
+              placeholder="Username"
+              name="username"
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Email"
+            name="email"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="Password">Password:</label>
+          <input
+            type="password"
+            class="form-control"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            class="form-control"
+            name="confirm-password"
+            id="confirm-password"
+            placeholder="Confirm Password"
+          />
+        </div>
+
+        <input type="button" value="Submit" class="submit" /> <br />
+
+        <a href="login.html" class="a-submit"
+          >Already have an account? Login here!</a
+        >
+      </form>
+    </div>
+  </body>
+</html>
