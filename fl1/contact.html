@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact form </title>
-    <link rel="stylesheet" href="css/contact.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact US</title>
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
-    <div class="contact">
-
-        <h1>Contact Form</h1>
-
-        <form action="" method="post">
-
-            <div class="form-group">
-              <label for="name">Your Name</label><br>
-              <input type="text" class="form-control" name="name" id="name" placeholder=" Your Name">
-            </div>
-            <div class="form-group">
-                <label for="name">Your Email Address</label><br>
-                <input type="email" class="form-control" name="email" id="email" placeholder=" Your Email Address">
-            </div>
-            <div class="form-group">
-                <label for="message">Your Message</label><br>
-                <textarea name="Message" id="message cols="30" class="form-control" rows="10" placeholder="Your Message Here"   ></textarea>
-            </div>
-
-            <input type="button" value="Submit" class="submit">
-            
-        </form>
+  <div class="nav-bar">
+    <div class="logo">
+      <img src="imgs/a.png" alt="logo" >
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.78203381931!2d85.3078548752833!3d27.66221462748098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb17800844334f%3A0x8517c8f6a901ff51!2sKusunti%20Kumar%20Peeth%20Marg%2C%20Lalitpur!5e0!3m2!1sen!2snp!4v1708415489605!5m2!1sen!2snp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
+    <a href="index.html" >Home</a>
+    <a href="contact.html" class="active">Contact us</a>
+    <a href="#about">About us</a>
+    <a href="#news">News</a>
+
+
+    <div class="acc">
+      <a href="login.html" >Login</a>
+      <a href="Signup.html" >Sign Up</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="contacth1">Contact Us</h1>
+    <form action="">
+      
+      <label for="email">Your Email</label><br>
+      <input type="email" name="email" class="form-control"  placeholder="Email Here"><br>
+
+      <label for="name">Your Name</label><br>
+      <input type="text" name="username" class="form-control" placeholder="Name Here"><br>
+
+      <label for="message">Your Message</label><br>
+      <textarea name="message" class="form-control" cols="63" rows="10"
+      placeholder="Your Message Here"></textarea><br>
+
+      <button type="submit">Submit</button>
+
+    </form>
+
+  </div>
+
+  <div class="map">
+    <h2 class="ourlocation">Our Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510.23338325581415!2d85.3103358229966!3d27.66198539837717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb17800844334f%3A0x8517c8f6a901ff51!2zS3VzdW50aSBLdW1hciBQZWV0aCBNYXJnLCDgpLLgpLLgpL_gpKTgpKrgpYHgpLA!5e0!3m2!1sne!2snp!4v1708750548214!5m2!1sne!2snp" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
 </body>
 </html>

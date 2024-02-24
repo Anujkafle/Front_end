@@ -1,5 +1,5 @@
 body{
-    background-color: #e0e1dd;
+    background-color: #ffffff;
 
 }
 
@@ -7,7 +7,7 @@ body{
 .nav-bar{
     height:60px;
     width: auto;
-    background-color: #778da9;
+    background-color: #cdb1df;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -24,9 +24,9 @@ body{
     margin-left: 20px;
     float: left;
     text-decoration: none;
-    color: white;
+    color: #575656;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px;
     transition: all 0.2s ease-in-out;
 }
 .nav-bar a:hover{
@@ -34,6 +34,10 @@ body{
 
     color: #000000;
 
+}
+
+.nav-bar a.active{
+    color: white;
 }
 
 .acc{
@@ -62,5 +66,5 @@ table{
 
 tr,td,th{
     border: #000000 solid;
-    padding: 10px;
+    padding: 20px;
 }
